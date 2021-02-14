@@ -3,11 +3,15 @@ body  {
   background-color: #ffffff;
 }
 
+this is for title font and alignment - you can go to dafont and choose a font and unzip it and it'll show up
+
 h2 {
   color: #6E9664;
   text-align: center;
   font-family: BaksoSapi;
  }
+
+this is for the myspace url box
 
 div.url.box{
    background-image: url(https://i.pinimg.com/736x/c0/b5/cc/c0b5ccf3d0510ad6759655cd3da28f92.jpg);
@@ -15,10 +19,14 @@ div.url.box{
    text-align: center;
 }
 
+this is for the music box
+
 div.player.box{
    background: #ffffff;
    border: 3px solid #6E9664;
 }
+
+this is also for the music box...i think? idk copy it in ans see what happens
 
 .player::before{
   content: "";
@@ -30,6 +38,8 @@ div.player.box{
   background-size: cover;
   background image: url(https://media3.giphy.com/media/u747atpVe1eq5gGfyc/giphy.gif);
 }
+
+this is how i got my baby in the corner lol
 
 .topLeft:after{
   content: ".";
@@ -43,6 +53,8 @@ div.player.box{
   background size: 100% 100%;
   background-image: url(https://media.giphy.com/media/u747atpVe1eq5gGfyc/giphy.gif);
 }
+
+change text and image for report 
 
 #report.boxButton{
    background-image: url(https://media.giphy.com/media/eDcOUAuqWuZDV2hOzI/giphy.gif);
@@ -59,6 +71,8 @@ div.player.box{
    padding: 20px;
 }
 
+change text and image for add
+
 #add.boxButton{
    background-image: url(https://media.giphy.com/media/32fhRsLlpXpgCkIs2O/giphy.gif);
    background-size: 20%;
@@ -73,6 +87,8 @@ div.player.box{
    color: #6E9664;
    padding: 20px;
 }
+
+change text and image for message 
 
 #sMsg.boxButton{
    background-image: url(https://media.giphy.com/media/dY07E4T8gt2admRMsw/giphy.gif);
@@ -89,6 +105,8 @@ div.player.box{
    padding: 20px;
 }
 
+change text and image for block 
+
 #block.boxButton{
    background-image: url(https://media.giphy.com/media/ftwmZIEB8RutAg41GE/giphy.gif);
    background-size: 20%;
@@ -104,6 +122,8 @@ div.player.box{
    padding: 20px;
 }
 
+idk what this is lol paste in and see 
+
 td.shortRight{
    border: solid 2px rgba(255,255,255,1);
    padding: 3px;
@@ -111,10 +131,14 @@ td.shortRight{
    text-align: center;
 }
 
+idk about this either
+
 span#credo{
    font-family: BaksoSapi;
    text-align: center;
 }
+
+gender font
 
 div#gender{
    font-family: Typewriter_Condensed;
@@ -126,6 +150,7 @@ div{
    text-transform: lowercase;
 }
 
+titles and headers on page
 b{
   text-align: center;
   font-family: Bakso Sapi;
