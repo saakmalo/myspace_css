@@ -1,0 +1,146 @@
+body  {
+  background-image: url("https://i.pinimg.com/564x/ae/df/ce/aedfceb46d7d6c009bf57854692b6470.jpg");
+  background-color: #ffffff;
+}
+
+h2 {
+  color: #6E9664;
+  text-align: center;
+  font-family: BaksoSapi;
+ }
+
+div.url.box{
+   background-image: url(https://i.pinimg.com/736x/c0/b5/cc/c0b5ccf3d0510ad6759655cd3da28f92.jpg);
+   border: 3px solid #6E9664;
+   text-align: center;
+}
+
+div.player.box{
+   background: #ffffff;
+   border: 3px solid #6E9664;
+}
+
+.player::before{
+  content: "";
+  display: block;
+  position: relative;
+  height: 390px;
+  max-width: 390px;
+  background-position: 0 0;
+  background-size: cover;
+  background image: url(https://media3.giphy.com/media/u747atpVe1eq5gGfyc/giphy.gif);
+}
+
+.topLeft:after{
+  content: ".";
+  font-size: 0px;
+  height: 256px;
+  left: 0;
+  bottom: 0;
+  width: 256px;
+  position: fixed;
+  z-index: 1000;
+  background size: 100% 100%;
+  background-image: url(https://media.giphy.com/media/u747atpVe1eq5gGfyc/giphy.gif);
+}
+
+#report.boxButton{
+   background-image: url(https://media.giphy.com/media/eDcOUAuqWuZDV2hOzI/giphy.gif);
+   background-size: 20%;
+   color: white;
+   font-size: 0;
+}
+
+#report::after{
+   content: "turn me in";
+   font-family: BaksoSapi;
+   font-size: 13px;
+   color: #6E9664;
+   padding: 20px;
+}
+
+#add.boxButton{
+   background-image: url(https://media.giphy.com/media/32fhRsLlpXpgCkIs2O/giphy.gif);
+   background-size: 20%;
+   color: white;
+   font-size: 0;
+}
+
+#add::after{
+   content: "become besties";
+   font-family: BaksoSapi;
+   font-size: 13px;
+   color: #6E9664;
+   padding: 20px;
+}
+
+#sMsg.boxButton{
+   background-image: url(https://media.giphy.com/media/dY07E4T8gt2admRMsw/giphy.gif);
+   background-size: 20%;
+   color: white;
+   font-size: 0;
+}
+
+#sMsg::after{
+   content: "message me";
+   font-family: BaksoSapi;
+   font-size: 13px;
+   color: #6E9664;
+   padding: 20px;
+}
+
+#block.boxButton{
+   background-image: url(https://media.giphy.com/media/ftwmZIEB8RutAg41GE/giphy.gif);
+   background-size: 20%;
+   color: white;
+   font-size: 0;
+}
+
+#block::after{
+   content: "never see me again";
+   font-family: BaksoSapi;
+   font-size: 13px;
+   color: #6E9664;
+   padding: 20px;
+}
+
+td.shortRight{
+   border: solid 2px rgba(255,255,255,1);
+   padding: 3px;
+   color:#6E9664;
+   text-align: center;
+}
+
+span#credo{
+   font-family: BaksoSapi;
+   text-align: center;
+}
+
+div#gender{
+   font-family: Typewriter_Condensed;
+   text-transform: lowercase;
+}
+
+div{
+   font-family: Typewriter_Condensed;
+   text-transform: lowercase;
+}
+
+b{
+  text-align: center;
+  font-family: Bakso Sapi;
+  text-transform: capitalize;
+  color: rgb(110, 150, 100)
+}
+
+div.boxHead{
+  background: #ffffff;
+  text-align: center;
+  text: "CONTACTING ME"
+}
+
+div.boxInfo.box{
+  border: 2px solid #6E9664;
+}   
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/anime/ani-6/ani567.cur), auto !important;} /* End https://www.cursors-4u.com */
